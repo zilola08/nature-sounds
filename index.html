@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nature Sounds</title>
+    <link rel="icon" type="image/x-icon" href="./assets/svg/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <span class="brand">Travel to a happy place</span>
+        <nav>
+            <ul>
+                <li><a id="morning" class="navlink morning navlink-active" href="#">Peaceful Morning</a></li>
+                <li><a id="birds" class="navlink bird" href="#">Forest Birds</a></li>
+                <li><a id="water" class="navlink water" href="#">Playful Waters</a></li>
+                <li><a id="rain" class="navlink rain" href="#">Cleansing Rains</a></li>
+                <li><a id="night" class="navlink night" href="#">Magical Nights</a></li>
+                <li><a id="fireplace" class="navlink fireplace" href="#">Warming Fires</a></li>
+            </ul>
+            <span class="icon navbar-collapse-menu-icon shown"><img src="./assets/svg/menu-icon.svg" alt=""></span>
+
+            <!-- Burger Menu -->
+            <div class="navbar-burger">
+                <ul class="navbar-burger-ul">
+                    <span class="icon closing-icon"><img src="./assets/svg/closing-icon-burger.svg" alt=""></span>
+                    <li class="nav-burger-item">
+                        <a id="b-morning" class="nav-burger-link navlink-active" href="#">Peaceful Morning</a>
+                    </li>
+                    <li class="nav-burger-item">
+                        <a id="b-birds"  class="nav-burger-link" href="#">Forest Birds</a>
+                    </li>
+                    <li class="nav-burger-item">
+                        <a id="b-water" class="nav-burger-link" href="#">Playful Waters</a>
+                    </li>
+                    <li class="nav-burger-item">
+                        <a id="b-rain" class="nav-burger-link" href="#">Cleansing Rains</a>
+                    </li>
+                    <li class="nav-burger-item">
+                        <a id="b-night" class="nav-burger-link" href="#">Magical Nights</a>
+                    </li>
+                    <li class="nav-burger-item">
+                        <a id="b-fireplace" class="nav-burger-link" href="#">Warming Fires</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="main">
+        <div class="container">
+            <button class="play">
+                <img src="./assets/svg/play-button.png" alt="">
+            </button>
+            <button class="pause hide-button">
+                <img src="./assets/svg/pause.png" alt="">
+            </button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <span>2022 Zilola Makhmonova</span>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
