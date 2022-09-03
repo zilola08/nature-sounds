@@ -223,7 +223,8 @@ function checkIfDesktop() {
         document.addEventListener('click', (e) => {
             const clickedPoint = e.target;
             if (!burgerMenu.contains(clickedPoint)) {
-                burgerMenu.classList.remove('shown')
+                burgerMenu.classList.remove('shown');
+                burgerMenuIcon.classList.add('shown');
             }
         })
     }
